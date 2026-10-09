@@ -1,0 +1,32 @@
+# Telegram
+aiogram>=3.15,<4
+
+# Настройки
+pydantic>=2.10,<3
+pydantic-settings>=2.7,<3
+python-dotenv>=1.0,<2
+
+# Планировщик
+APScheduler>=3.11,<4
+
+# БД
+aiosqlite>=0.20,<1
+
+# HTTP + LLM (OpenAI-совместимый API для Groq/Cerebras/OpenRouter)
+openai>=1.60,<2
+httpx[socks]>=0.27,<1
+
+# Поиск в интернете
+ddgs>=9.0,<10
+tavily-python>=0.5,<1
+
+# Чтение статей
+trafilatura>=2.0,<3
+
+# Ретраи
+tenacity>=9.0,<10
+tzdata>=2024.1
+aiohttp-socks>=0.9,<1
+pypdf>=5.0,<6
+python-docx>=1.1,<2
+openpyxl>=3.1,<4
